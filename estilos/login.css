@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.cadcon {
+  background: rgb(34, 193, 195);
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.geral {
+  display: flex;
+}
+.geral #entrar-btn {
+  margin-top: 20px;
+  height: 60px;
+  background-color: aliceblue;
+  border-radius: 30px;
+}
+.geral #entrar-btn:hover {
+  margin-top: 20px;
+  height: 60px;
+  color: white;
+  background: rgb(139, 71, 71);
+  border-radius: 30px;
+}
+.geral h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.geral .lado-esquerdo {
+  width: 50%;
+  height: 100vh;
+  color: white;
+  font-size: 30px;
+  background-color: #191970;
+}
+.geral .lado-direito {
+  width: 50%;
+  height: 100vh;
+  color: white;
+  font-size: 30px;
+  background-color: #4169E1;
+}
+.geral label {
+  margin: 0 auto;
+  margin-top: 4px;
+  width: 40%;
+  height: 40px;
+  border-radius: 5px;
+  display: block;
+}
+.geral input {
+  padding-left: 5px;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-top: 1px;
+  width: 40%;
+  height: 40px;
+  border-radius: 5px;
+  display: block;
+}
+.geral a {
+  border: 2px solid black;
+  color: black;
+  text-align: center;
+  line-height: 55px;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-top: 1px;
+  width: 40%;
+  height: 40px;
+  border-radius: 20px;
+  display: block;
+}/*# sourceMappingURL=login.css.map */

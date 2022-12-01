@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.geral {
+  width: 600px;
+  margin: 0 auto;
+  background-color: cadetblue;
+  border-radius: 20px;
+  height: 50vh;
+  border: 3px solid black;
+  margin-top: 20px;
+  padding: 10px;
+}
+.geral input {
+  margin: 0 auto;
+  display: block;
+  width: 300px;
+  height: 40px;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+.geral label {
+  margin-left: 150px;
+  color: white;
+  font-size: 20px;
+}
+
+.general {
+  display: flex;
+}
+.general .menu {
+  width: 740px;
+  height: 350px;
+  margin: 0 auto;
+  grid-template-columns: 150px 150px;
+  margin-top: 10px;
+}
+.general .menu button {
+  margin: 5px;
+  font-size: 30px;
+  width: 350px;
+  height: 150px;
+  background-color: white;
+  border-radius: 5px;
+}
+.general .menu button:hover {
+  margin: 5px;
+  font-size: 30px;
+  width: 350px;
+  height: 150px;
+  background-color: blue;
+  color: wheat;
+  border-radius: 5px;
+}
+.general .menu a {
+  color: black;
+}/*# sourceMappingURL=adm.css.map */

@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.caixa {
+  border: 1px solid black;
+  background-color: white;
+}
+.caixa p {
+  display: block;
+  margin: 2px;
+  color: black;
+}
+.caixa .conteudok {
+  margin: 1px;
+  width: 60%;
+  display: block;
+  float: right;
+}
+.caixa .foto {
+  margin-top: 5px;
+  height: 200px;
+  border: 1px solid black;
+  width: 30%;
+  float: left;
+}
+
+.conta {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+}
+
+.bt-alterar {
+  color: black;
+  width: 200px;
+  height: 50px;
+  font-size: 1.4em;
+  line-height: 45px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: black;
+}
+
+.bt-excluir {
+  color: black;
+  width: 200px;
+  height: 50px;
+  font-size: 1.4em;
+  line-height: 45px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: black;
+}
+
+.bt-alterar:hover {
+  color: black;
+  width: 200px;
+  height: 50px;
+  font-size: 1.4em;
+  line-height: 45px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: yellow;
+}
+
+.bt-excluir:hover {
+  color: black;
+  width: 200px;
+  height: 50px;
+  font-size: 1.4em;
+  line-height: 45px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: red;
+}
+
+.alert {
+  text-align: center;
+  background-color: brown;
+  font-size: 20px;
+}
+
+#carrinho {
+  width: 100px;
+  height: 40px;
+  background-color: aliceblue;
+  margin: 10 auto;
+  font-size: 20px;
+}
+
+#carrinho:hover {
+  width: 100px;
+  height: 40px;
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  margin: 10 auto;
+}
+
+.botoes {
+  display: flex;
+}
+
+.capa {
+  width: 40%;
+}
+
+.lado1 {
+  width: 60%;
+}
+
+.conjunto {
+  display: flex;
+}/*# sourceMappingURL=produtos_geral.css.map */

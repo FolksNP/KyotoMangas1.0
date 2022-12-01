@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.principal{
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 550px;
+    padding: 10px;
+    background-color: #E28597;
+    p{
+        font-size: 20px;
+    }
+    .cad-input{
+        margin: 0 auto;
+        font-size: 20px;
+        align-items: center;
+        width: 500px;
+        height: 50px;
+        border-radius: 20px;
+        padding: 5px;
+    }
+    #cad{
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+    #cad:hover{
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 20px;
+        margin: 0 auto;
+        background-color: orangered;
+        color: white;
+    }
+}

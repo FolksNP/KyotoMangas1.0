@@ -1,0 +1,87 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   // background: rgb(0,21,97);
+  //  background: linear-gradient(90deg, rgba(0,21,97,1) 40%, rgba(0,21,97,1) 60%);
+}
+//mixin //include
+ @mixin formatacao-geral(){
+    width: 50%;
+    height: 100vh;
+    color: white;
+    font-size: 30px;
+ }
+
+.cadcon{
+    background: rgb(34,193,195);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.geral{
+    display: flex;
+    #entrar-btn{
+        margin-top: 20px;
+        height: 60px;
+        background-color: aliceblue;
+        border-radius: 30px;
+    }
+    #entrar-btn:hover{
+        margin-top: 20px;
+        height: 60px;
+        color: white;
+        background: rgb(139, 71, 71);
+        border-radius: 30px;
+    }
+
+    h2{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .lado-esquerdo{
+        @include formatacao-geral;
+        background-color: #191970;
+    }
+    .lado-direito{
+        @include formatacao-geral;
+        background-color: #4169E1;
+        //background-color: #00BFFF;
+    }
+    label{
+        margin: 0 auto;
+        margin-top: 4px;
+        width: 40%;  
+        height: 40px;
+        border-radius: 5px;
+        display: block;
+    }
+    input{
+        padding-left: 5px;
+        font-size: 20px;
+        margin: 0 auto;
+        margin-top: 1px;
+        width: 40%;  
+        height: 40px;
+        border-radius: 5px;
+        display: block;
+    }
+    a{
+        border: 2px solid black;
+        color: black;
+        text-align: center;
+        line-height: 55px;
+        font-size: 20px;
+        margin: 0 auto;
+        margin-top: 1px;
+        width: 40%;  
+        height: 40px;
+        border-radius: 20px;
+        display: block;
+    } 
+}
