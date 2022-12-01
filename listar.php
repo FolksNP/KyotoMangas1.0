@@ -32,7 +32,7 @@
                                 echo "<p class=\"card-text\" style=\"margin-bottom: 5px;\">Editora: $produto[editora]</p>";
                                 echo "<p class=\"card-text\" style=\"margin-bottom: 5px;\">Volume: $produto[volume]</p>";
                                 echo "<p class=\"card-text\" style=\"margin-bottom: 5px;\">Sinopse: $produto[sinopse]</p>";
-                                echo "<button class=\"btn\"onclick=carrinho()>Comprar</button>" ;
+                                echo "<button class=\"btn\" type=\"submit\">Comprar</button>" ;
                             echo"</div>";
                         echo"</div>";
                     echo "</div>";
@@ -41,15 +41,5 @@
             echo "</div>";
         }
     ?>
-
-    <script>
-        function carrinho(codigo){
-            resp = comfirm('Deseja comprar o mangá?');
-            if(resp == true){
-                window.location = "carrinho.php?cod="+codigo_produto;
-            }
-        }
-    </script>
-
 </body>
 </html>
