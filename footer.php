@@ -62,7 +62,7 @@
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">
-            Fornecedores
+            Fornecedores oi
           </h6>
           <p>
             <a href="https://panini.com.br/" class="text-reset">Panini</a>
