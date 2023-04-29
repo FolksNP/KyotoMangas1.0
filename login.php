@@ -17,6 +17,7 @@
         if(isset($_SESSION['msg'])){
             echo "<p class=cadcon>$_SESSION[msg]</p>";
             unset($_SESSION['msg']);
+            echo'olá';
         }
     ?>
 
