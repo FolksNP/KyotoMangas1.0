@@ -1,7 +1,7 @@
 # Atualizacão importante!
 
 O projeto kyoto mangás irá receber um novo repositório, será um projeto completamente renovado, utilizando novas tecnologias para desenvolvimento.
-Nesse caso, este repositório não receberá mais atualizações, e agora, o versionamento será realizado no repositório: 
+Nesse caso, este repositório não receberá mais atualizações, e agora, o versionamento será realizado no repositório: Kyoto-Mang-s
 
 # Sobre o projeto:
 O Kyoto Mangás é um projeto que se apresenta como uma plataforma dedicada à leitura e compra de mangás físicos. Seu grande diferencial é o foco na experiência do usuário, proporcionando um design minimalista que facilita a navegação. A plataforma foi desenvolvida para que os usuários possam alcançar seus objetivos de maneira simples e intuitiva, garantindo uma experiência agradável e envolvente.
